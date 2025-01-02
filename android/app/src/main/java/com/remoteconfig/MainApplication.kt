@@ -11,6 +11,7 @@ import com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost
 import com.facebook.react.defaults.DefaultReactNativeHost
 import com.facebook.react.soloader.OpenSourceMergedSoMapping
 import com.facebook.soloader.SoLoader
+//import io.invertase.firebase.config.RNFirebaseConfigPackage // Import Firebase Remote Config Package
 
 class MainApplication : Application(), ReactApplication {
 
@@ -18,8 +19,8 @@ class MainApplication : Application(), ReactApplication {
       object : DefaultReactNativeHost(this) {
         override fun getPackages(): List<ReactPackage> =
             PackageList(this).packages.apply {
-              // Packages that cannot be autolinked yet can be added manually here, for example:
-              // add(MyReactNativePackage())
+              // Add the Firebase Remote Config Package manually
+             // add(new RNFirebaseConfigPackage())
             }
 
         override fun getJSMainModuleName(): String = "index"

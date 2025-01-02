@@ -1,0 +1,33 @@
+[
+  {
+    "category": "North America",
+    "subcategories": [
+      {"label": "United States", "value": "United States"},
+      {"label": "Canada", "value": "Canada"}
+    ]
+  },
+  {
+    "category": "Europe",
+    "subcategories": [
+      {"label": "United Kingdom", "value": "United Kingdom"},
+      {"label": "Germany", "value": "Germany"},
+      {"label": "France", "value": "France"}
+    ]
+  },
+  {
+    "category": "Asia",
+    "subcategories": [
+      {"label": "India", "value": "India"},
+      {"label": "Japan", "value": "Japan"},
+      {"label": "China", "value": "China"}
+    ]
+  },
+  {
+    "category": "Oceania",
+    "subcategories": [{"label": "Australia", "value": "Australia"}]
+  },
+  {
+    "category": "South America",
+    "subcategories": [{"label": "Brazil", "value": "Brazil"}]
+  }
+]
